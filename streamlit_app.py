@@ -55,8 +55,7 @@ with st.spinner("グラフを描画中です"):
               markers=True,
               title='消費者物価指数の推移',
               labels={'value': '物価指数', 'variable': '品目'}) # 軸ラベルの変更
-
-st.plotly_chart(fig)
+    st.plotly_chart(fig)
 
 # 散布図
 # 2つ選ばれている時だけ表示する
